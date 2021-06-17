@@ -1,0 +1,23 @@
+<div class="container">
+    <text class="best">
+        Best:{{best}}
+    </text>
+    <text class="score">
+        Score:{{score}}
+    </text>
+    <stack class="stack">
+        <div class="tile-wrap" onswipe="onSwipe">
+            <div class="tile" for="{{tiles}}" style="background-color:#000000">
+                <text class="text" style="color:#FFFFFF">
+                    {{$item.text}}
+                </text>
+            </div>
+        </div>
+        <div class="subcontainer" show="{{isShow}}">
+            <text class="gameover">
+                Gameover!
+            </text>
+        </div>
+    </stack>
+    <input class="btn" type="button" value="Restart!" onclick="onInit" ></input>
+</div>
