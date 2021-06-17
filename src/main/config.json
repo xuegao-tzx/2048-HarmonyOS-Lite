@@ -1,0 +1,42 @@
+{
+  "app": {
+    "apiVersion": {
+      "compatible": 3,
+      "target": 4,
+      "releaseType": "Release"
+    },
+    "bundleName": "my.game20481.myapplication",
+    "vendor": "game20481",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "deviceType": [
+      "liteWearable"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry"
+    },
+    "abilities": [
+      {
+        "name": "default",
+        "icon": "$media:icon",
+        "label": "$string:entry_MainAbility",
+        "type": "page"
+      }
+    ],
+    "js": [
+      {
+        "pages": [
+          "pages/index/index"
+        ],
+        "name": "default"
+      }
+    ]
+  }
+}

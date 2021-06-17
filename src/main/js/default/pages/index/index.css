@@ -1,0 +1,62 @@
+.container{
+    width: 454px;
+    height: 454px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.score{
+    text-align: center;
+    width: 234px;
+    height: 30px;
+    letter-spacing: 0px;
+    margin-top: 4px;
+    margin-bottom:6px;
+}
+.best{
+    text-align: center;
+    width: 234px;
+    height: 30px;
+    letter-spacing: 0px;
+    margin-top: 19px;
+}
+.tile-wrap{
+    width: 300px;
+    height: 300px;
+    flex-wrap: wrap;
+    background-color: #FFFFFF;
+}
+.tile{
+    width: 70px;
+    height: 70px;
+    margin-top: 4px;
+    margin-left: 4px;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    width: 135px;
+    height: 45px;
+    background-color: #1F71FF;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.text{
+    font-size: 30px;
+    color: #000000;
+}
+.stack{
+    width: 300px;
+    height: 300px;
+}
+.subcontainer{
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+.gameover{
+    font-size: 40px;
+    color: #FF7500;
+}
