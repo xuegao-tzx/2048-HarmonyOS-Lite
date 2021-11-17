@@ -1,0 +1,53 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+apply plugin: 'com.huawei.ohos.app'
+
+//For instructions on signature configuration, see https://developer.harmonyos.com/cn/docs/documentation/doc-guides/ide_debug_device-0000001053822404#section1112183053510
+ohos {
+    signingConfigs {
+        debug {
+            storeFile file('C:\\Study\\key\\xcl2048.p12')
+            storePassword '00000018F7FAD4DE0BB863142993D255B63C586BFE9A4D554EB96CAC51C1C6CDC585B915635C71FE'
+            keyAlias = 'xcl2048'
+            keyPassword '000000180A8B74EFA0A1EBB5688ABB0B67ABC55BF31B52113CCDE96012B649EFAC035688455044DB'
+            signAlg = 'SHA256withECDSA'
+            profile file('C:\\Study\\key\\xcl2048Debug.p7b')
+            certpath file('C:\\Study\\key\\xcl2048.cer')
+        }
+        release {
+            storeFile file('C:\\Study\\key\\xcl2048.p12')
+            storePassword '00000018EC98F99FD59E53EA2D7277BB2A7A47A49EF2C571B438B41317A5F8BD3076BD495B0AA6B9'
+            keyAlias = 'xcl2048'
+            keyPassword '000000188C93967FFACA83A806DEB256E56D7BC2109E027760ED3904F370C99EF5AF5A35F008C506'
+            signAlg = 'SHA256withECDSA'
+            profile file('C:\\Study\\key\\xcl2048fRelease.p7b')
+            certpath file('C:\\Study\\key\\xcl2048f.cer')
+        }
+    }
+    compileSdkVersion 7
+}
+
+buildscript {
+    repositories {
+        maven {
+            url 'https://repo.huaweicloud.com/repository/maven/'
+        }
+        maven {
+            url 'https://developer.huawei.com/repo/'
+        }
+    }
+    dependencies {
+        classpath 'com.huawei.ohos:hap:3.0.3.4'
+        classpath 'com.huawei.ohos:decctest:1.2.6.0'
+    }
+}
+
+allprojects {
+    repositories {
+        maven {
+            url 'https://repo.huaweicloud.com/repository/maven/'
+        }
+        maven {
+            url 'https://developer.huawei.com/repo/'
+        }
+    }
+}
