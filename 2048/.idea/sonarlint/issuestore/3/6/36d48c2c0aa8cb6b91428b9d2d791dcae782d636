@@ -1,0 +1,8 @@
+
+wjavascript:S3776""TRefactor this function to reduce its Cognitive Complexity from 17 to the 15 allowed.(ªù÷Ò8…ÒƒîÒ/
+ˆjavascript:S4165'"eReview this redundant assignment: "start" already holds the assigned value along all execution paths.(ÑÉşÔ8‹ÒƒîÒ/
+ˆjavascript:S41651"eReview this redundant assignment: "start" already holds the assigned value along all execution paths.(ÑÉşÔ8ŒÒƒîÒ/
+Ejavascript:S1656R""'this.best' is assigned to itself.(íæè8ÒƒîÒ/
+Jjavascript:S1125Y"'Remove the unnecessary boolean literal.(ƒª¶Î8ÒƒîÒ/
+Ojavascript:S1125o"'Remove the unnecessary boolean literal.(¥Àµûıÿÿÿÿ8ÒƒîÒ/
+Ojavascript:S1125o"'Remove the unnecessary boolean literal.(¥Àµûıÿÿÿÿ8ÒƒîÒ/

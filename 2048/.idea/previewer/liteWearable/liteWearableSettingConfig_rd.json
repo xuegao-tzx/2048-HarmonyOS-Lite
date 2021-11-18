@@ -1,0 +1,83 @@
+{
+ "setting": {
+  "1.0.0": {
+   "KeepScreenOnState": {
+    "args": {
+     "KeepScreenOnState": true
+    }
+   },
+   "BrightnessMode": {
+    "args": {
+     "BrightnessMode": 0
+    }
+   },
+   "Brightness": {
+    "args": {
+     "Brightness": 170
+    }
+   },
+   "WearingState": {
+    "args": {
+     "WearingState": true
+    }
+   },
+   "Barometer": {
+    "args": {
+     "Barometer": 101325
+    }
+   },
+   "HeartRate": {
+    "args": {
+     "HeartRate": 100
+    }
+   },
+   "StepCount": {
+    "args": {
+     "StepCount": 0
+    }
+   },
+   "Location": {
+    "args": {
+     "latitude": 39.914417,
+     "longitude": 116.39647
+    }
+   },
+   "ChargeMode": {
+    "args": {
+     "ChargeMode": 0
+    }
+   },
+   "Power": {
+    "args": {
+     "Power": 0.1
+    }
+   },
+   "Language": {
+    "args": {
+     "Language": "en-US"
+    }
+   }
+  },
+  "1.0.1": {
+   "Language": {
+    "args": {
+     "Language": "zh-CN"
+    }
+   }
+  }
+ },
+ "frontend": {
+  "1.0.0": {
+   "Resolution": {
+    "args": {
+     "Resolution": "454*454"
+    }
+   },
+   "DeviceType": {
+    "args": {
+     "DeviceType": "liteWearable"
+    }
+   }
+  }
+ }
+}
