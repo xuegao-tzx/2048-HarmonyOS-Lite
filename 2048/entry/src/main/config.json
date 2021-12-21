@@ -10,7 +10,7 @@
   "deviceConfig": {},
   "module": {
     "deviceType": [
-      "liteWearable"
+      "Wearable"
     ],
     "distro": {
       "deliveryWithInstall": true,
