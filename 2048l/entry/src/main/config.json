@@ -10,12 +10,21 @@
   "deviceConfig": {},
   "module": {
     "deviceType": [
-      "Wearable"
+      "liteWearable"
     ],
     "distro": {
       "deliveryWithInstall": true,
       "moduleName": "entry",
       "moduleType": "entry"
+    },
+    "metaData": {
+      "customizeData": [
+        {
+          "name": "hwc-theme",
+          "extra": "",
+          "value": "androidhwext:style/Theme.Emui.Translucent.NoTitleBar"
+        }
+      ]
     },
     "js": [
       {
